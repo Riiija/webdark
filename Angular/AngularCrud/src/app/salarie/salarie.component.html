@@ -1,0 +1,21 @@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Nom</td>
+                <td>Prenom</td>
+                <td>Date de Naissance</td>
+                <td>Salaire</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let salairie of salarieList">
+                <td>{{salairie.id}}</td>
+                <td>{{salairie.nom}}</td>
+                <td>{{salairie.prenom}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>

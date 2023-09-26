@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stagiaire\\source\\repos\\APICrud\\APICrud\\APICrud.csproj": {}
+    "C:\\Users\\stagiaire\\Documents\\Projet\\webdark\\webdark\\APICrud\\APICrud\\APICrud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stagiaire\\source\\repos\\APICrud\\APICrud\\APICrud.csproj": {
+    "C:\\Users\\stagiaire\\Documents\\Projet\\webdark\\webdark\\APICrud\\APICrud\\APICrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stagiaire\\source\\repos\\APICrud\\APICrud\\APICrud.csproj",
+        "projectUniqueName": "C:\\Users\\stagiaire\\Documents\\Projet\\webdark\\webdark\\APICrud\\APICrud\\APICrud.csproj",
         "projectName": "APICrud",
-        "projectPath": "C:\\Users\\stagiaire\\source\\repos\\APICrud\\APICrud\\APICrud.csproj",
+        "projectPath": "C:\\Users\\stagiaire\\Documents\\Projet\\webdark\\webdark\\APICrud\\APICrud\\APICrud.csproj",
         "packagesPath": "C:\\Users\\stagiaire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stagiaire\\source\\repos\\APICrud\\APICrud\\obj\\",
+        "outputPath": "C:\\Users\\stagiaire\\Documents\\Projet\\webdark\\webdark\\APICrud\\APICrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,38 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
